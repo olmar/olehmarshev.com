@@ -1,36 +1,34 @@
-baseURL = "https://olehmarshev.com/"
-theme = "cocoa-eh"
-
-builddrafts = false
-canonifyurls = true
-contentdir = "content"
-languageCode = "en-US"
-layoutdir = "layouts"
-publishdir = "public"
-author = ""
+baseurl = "https://olehmarshev.com/"
 title = "Oleh Marshev"
-disqusshortname = ""
-pluralizelisttitles = false
+theme = "coder"
 
-[permalinks]
-blog = "blog/:slug/"
+[params] # theme parameters
+    author = "Oleh Marshev" # author's name
+    info = "Some thoughts" # author's job title or info
+    description = "John Doe's personal website" # site description
+    keywords = "blog,developer,engineering" # site keywords
 
-[params]
-dateform = "Jan 2, 2006"
-dateformfull = "Mon Jan 2 2006 15:04:05 MST"
-description = "Some thoughts"
-copyright = "Copyright © 2018"
-logofile = "img/logo.png"
-faviconfile = "img/logo.png"
-latestpostcount = 5
-highlightjs = true
-progressively = true
-align_left = false
-lang = "en"
-github = "olmar"
-email = "oleh.marshev@gmail.com"
-linkedin = "olegmarshev"
-twitter = "OlegMarshev"
-social_banner = "img/banner.png"
-posts_navigation = true
-small_banner_logo = false
+# Social links
+[[params.social]]
+    name = "Github"
+    weight = 1
+    url = "https://github.com/olmar/"
+[[params.social]]
+    name = "Twitter"
+    weight = 2
+    url = "https://twitter.com/OlegMarshev/"
+[[params.social]]
+    name = "LinkedIn"
+    weight = 3
+    url = "https://www.linkedin.com/in/olegmarshev/"
+
+# Menu links
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/blog/"
+
+#[[menu.main]]
+#    name = "About"
+#    weight = 2
+#    url = "/about/"
