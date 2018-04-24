@@ -1,5 +1,5 @@
 ---
-title: "Design by Contract vs Test Driven Development"
+title: "Unit Testing vs Design by Contract"
 date: 2018-04-22T21:43:59+03:00
 draft: true
 ---
@@ -20,7 +20,7 @@ Let's imagine if just only one of this concepts is practiced. For example, a Des
 
 For now I want to emphasize just two points:
 
-* Bad customer experience. Assertions and invariants tends to be happen not in development environment.
+* Bad customer experience. Assertions and invariants tends to be happen not in development environment but somewhere next in continuous delivery pipeline.
 * From technical perspective refactoring is hardly possible. Getting feedback about changes made to the system tends to be happen not in development environment also.
 
 On the contrary, I want to know about how changes affect system in the Work-In-Progress stage.
