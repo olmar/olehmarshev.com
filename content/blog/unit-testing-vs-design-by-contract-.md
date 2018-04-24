@@ -1,7 +1,7 @@
 ---
 title: "Unit Testing vs Design by Contract"
 date: 2018-04-22T21:43:59+03:00
-draft: true
+draft: false
 ---
 
 In the first half of [The Pragmatic Programmer](https://pragprog.com/book/tpp/the-pragmatic-programmer) Andrew Hunt and David Thomas introduce concept of Design by Contract (DBC, for short).[^1]
