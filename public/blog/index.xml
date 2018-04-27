@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Oleh Marshev</title>
+    <link>https://olehmarshev.com/blog/</link>
+    <description>Recent content in Blogs on Oleh Marshev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 22 Apr 2018 21:43:59 +0300</lastBuildDate>
+    
+	<atom:link href="https://olehmarshev.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Unit Testing vs Design by Contract</title>
+      <link>https://olehmarshev.com/blog/unit-testing-vs-design-by-contract-/</link>
+      <pubDate>Sun, 22 Apr 2018 21:43:59 +0300</pubDate>
+      
+      <guid>https://olehmarshev.com/blog/unit-testing-vs-design-by-contract-/</guid>
+      <description>In the first half of The Pragmatic Programmer Andrew Hunt and David Thomas introduce concept of Design by Contract (DBC, for short).1
+In order to determine correctness of the program three questions must be answered:
+ What does routine expect? What does routine guarantee? What does routine maintain?  For example, Python can support this via assert statements and invariant methods. But there is no native support in it as in Eiffel.</description>
+    </item>
+    
+    <item>
+      <title>Maintenance and Development</title>
+      <link>https://olehmarshev.com/blog/maintenance-and-development/</link>
+      <pubDate>Mon, 15 Jan 2018 00:17:20 +0200</pubDate>
+      
+      <guid>https://olehmarshev.com/blog/maintenance-and-development/</guid>
+      <description>Looks like previously I was looking at maintenance and development as something that opposite to each other. First develop, then maintain. One of the first insights from reading The Pragmatic Programmer is that maintenance is a part of the whole development process. Authors introduced a new point of view. Since our understanding of what we develop changes, new requirements arrive when we develop or even design we need to change application code as earlier as possible.</description>
+    </item>
+    
+  </channel>
+</rss>
