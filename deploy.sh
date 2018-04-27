@@ -10,7 +10,7 @@ git rm -rf .
 cd ..
 
 # Build the project.
-hugo -t coder
+hugo -t kiera
 
 # Go To Public folder
 cd public
