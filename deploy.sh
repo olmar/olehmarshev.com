@@ -2,13 +2,19 @@
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
-rm -rf public
+# Go To Public folder
+cd public
+
+git rm -rf .
+
+cd ..
 
 # Build the project.
 hugo -t coder
 
 # Go To Public folder
 cd public
+
 # Add changes to git.
 git add .
 
