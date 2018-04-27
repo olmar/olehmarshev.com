@@ -1,16 +1,3 @@
-[submodule "themes/ananke"]
-	path = themes/ananke
-	url = https://github.com/budparr/gohugo-theme-ananke.git
-[submodule "public"]
-	path = public
-	url = git@github.com:olmar/olmar.github.io.git
-	branch = master
-[submodule "themes/minimo"]
-	path = themes/minimo
-	url = https://github.com/MunifTanjim/minimo
-[submodule "themes/cocoa-eh"]
-	path = themes/cocoa-eh
-	url = https://github.com/mtn/cocoa-eh-hugo-theme
 [submodule "themes/coder"]
 	path = themes/coder
 	url = https://github.com/luizdepra/hugo-coder.git
