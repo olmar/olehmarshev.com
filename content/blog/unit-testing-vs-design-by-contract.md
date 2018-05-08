@@ -25,7 +25,7 @@ For now I want to emphasize just two points:
 
 On the contrary, I want to know about how changes affect system in the Work-In-Progress stage.
 
-I think these both concepts - Unit Testing and DBC - should complement each other. Unit testing should be practiced and implemented in tests. DBC should be practiced and implemented as a mental model. Something that engineer should always have in the background during his work.
+I think these both concepts - Unit Testing and DBC - should complement each other. Unit testing should be practiced and implemented in tests. Design by Contract should be practiced and implemented as a mental model. Something that engineer should always have in the background during his work.
 
 
 [^1]: Design by Contract was developed by Bertrand Meyer in 1986 when he was working on Eiffel programming language.
