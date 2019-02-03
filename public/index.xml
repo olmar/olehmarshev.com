@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Oleh Marshev</title>
+    <link>https://olehmarshev.com/</link>
+    <description>Recent content on Oleh Marshev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright &amp;copy; 2018 - Oleh Marshev</copyright>
+    <lastBuildDate>Sun, 03 Feb 2019 18:28:28 +0200</lastBuildDate>
+    
+	<atom:link href="https://olehmarshev.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Right Tools for the Right Moment</title>
+      <link>https://olehmarshev.com/blog/right-tools-for-the-right-moment/</link>
+      <pubDate>Sun, 03 Feb 2019 18:28:28 +0200</pubDate>
+      
+      <guid>https://olehmarshev.com/blog/right-tools-for-the-right-moment/</guid>
+      <description>Have you ever realized that the current state of architecture does not meet the current needs? One of the projects I’ve been working on had PostgreSQL and Neo4j databases with data tightly related between them.</description>
+    </item>
+    
+    <item>
+      <title>Unit Testing vs Design by Contract</title>
+      <link>https://olehmarshev.com/blog/unit-testing-vs-design-by-contract/</link>
+      <pubDate>Sun, 22 Apr 2018 21:43:59 +0300</pubDate>
+      
+      <guid>https://olehmarshev.com/blog/unit-testing-vs-design-by-contract/</guid>
+      <description>In the first half of The Pragmatic Programmer Andrew Hunt and David Thomas introduce concept of Design by Contract (DBC, for short).1
+In order to determine correctness of the program three questions must be answered:</description>
+    </item>
+    
+    <item>
+      <title>Maintenance and Development</title>
+      <link>https://olehmarshev.com/blog/maintenance-and-development/</link>
+      <pubDate>Mon, 15 Jan 2018 00:17:20 +0200</pubDate>
+      
+      <guid>https://olehmarshev.com/blog/maintenance-and-development/</guid>
+      <description>Looks like previously I was looking at maintenance and development as something that opposite to each other. First develop, then maintain. One of the first insights from reading The Pragmatic Programmer is that maintenance is a part of the whole development process.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,141 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <title>Oleh Marshev</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="The HTML5 Herald" />
+  <meta name="author" content="" />
+  <meta name="generator" content="Hugo 0.54.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" />
+  <link rel="stylesheet" type="text/css" href="https://olehmarshev.com/css/styles.css" />
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <h1>
+                <a href="https://olehmarshev.com/">Oleh Marshev</a>
+            </h1>
+
+      <ul id="social-media">
+        
+        <li><a href="https://twitter.com/OlegMarshev"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+         
+        <li><a href="https://www.linkedin.com/in/olegmarshev"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+         
+        <li><a href="https://github.com/olmar"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
+           
+      </ul>
+      
+      <p><em>Some thoughts</em></p>
+      
+    </header>
+
+    
+<nav>
+    <ul>
+        
+    </ul>
+</nav>
+
+    <main>
+
+
+
+
+<article>
+
+    <h1>Unit Testing vs Design by Contract</h1>
+
+    
+        <aside>
+    <ul>
+        <li>
+            <time class="post-date" datetime="2018-04-22T21:43:59&#43;03:00">Apr 22, 2018</time>
+        </li>
+        
+        
+
+        
+
+        <li>2 min read</li>
+    </ul>
+</aside>
+    
+
+    <p>In the first half of <a href="https://pragprog.com/book/tpp/the-pragmatic-programmer">The Pragmatic Programmer</a> Andrew Hunt and David Thomas introduce concept of Design by Contract (DBC, for short).<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup></p>
+
+<p>In order to determine correctness of the program three questions must be answered:</p>
+
+<ol>
+<li>What does routine expect?</li>
+<li>What does routine guarantee?</li>
+<li>What does routine maintain?</li>
+</ol>
+
+<p>For example, Python can support this via <a href="https://docs.python.org/3/reference/simple_stmts.html#assert"><code>assert</code></a> statements and <a href="https://en.wikipedia.org/wiki/Invariant_(computer_science)"><code>invariant</code></a> methods. But there is no native support in it as in Eiffel.</p>
+
+<p>In second half of the book the concept of Unit Testing is explained. Writing tests can ensure to a first approximation previous three questions.</p>
+
+<p>Let&rsquo;s imagine if just only one of this concepts is practiced. For example, a Design by Contract?</p>
+
+<p>For now I want to emphasize just two points:</p>
+
+<ul>
+<li>Bad customer experience. Assertions and invariants tends to be happen not in development environment but somewhere next in continuous delivery pipeline.</li>
+<li>From technical perspective refactoring is hardly possible. Getting feedback about changes made to the system tends to be happen not in development environment also.</li>
+</ul>
+
+<p>On the contrary, I want to know about how changes affect system in the Work-In-Progress stage.</p>
+
+<p>I think these both concepts - Unit Testing and DBC - should complement each other. Unit testing should be practiced and implemented in tests. Design by Contract should be practiced and implemented as a mental model. Something that engineer should always have in the background during his work.</p>
+<div class="footnotes">
+
+<hr />
+
+<ol>
+<li id="fn:1">Design by Contract was developed by Bertrand Meyer in 1986 when he was working on Eiffel programming language.
+ <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
+</ol>
+</div>
+
+
+</article>
+
+
+<section class="post-nav">
+    <ul>
+        
+        <li>
+            <a href="https://olehmarshev.com/blog/maintenance-and-development/"><i class="fa fa-chevron-circle-left"></i> Maintenance and Development</a>
+        </li>
+        
+        
+        <li>
+            <a href="https://olehmarshev.com/blog/right-tools-for-the-right-moment/">Right Tools for the Right Moment <i class="fa fa-chevron-circle-right"></i> </a>
+        </li>
+        
+    </ul>
+</section>
+    
+
+
+
+
+
+</main>
+    <footer>
+        <h6>Copyright &copy; 2018 - Oleh Marshev | 
+            Rendered by <a href="https://gohugo.io" title="Hugo">Hugo</a> |
+            <a href="https://olehmarshev.com/index.xml">Subscribe</a></h6>
+    </footer>
+</div>
+<script src="https://olehmarshev.com/js/scripts.js"></script>
+</body>
+
+</html>
